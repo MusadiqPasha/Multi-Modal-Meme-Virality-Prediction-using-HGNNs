@@ -89,16 +89,17 @@ Constructs a hypergraph where each node represents a meme and hyperedges represe
 
 ---
 
-## Approach Comparison
+## Summary: Approach Comparison
 
-| Metric / Aspect         | Ensemble Model              | Hypergraph GNN                   |
-|-------------------------|-----------------------------|----------------------------------|
-| Modal Separation        | Handled independently       | Fused before learning            |
-| Feature Fusion          | Late fusion                 | Early fusion                     |
-| Metadata Usage          | Tabular model               | Hyperedge construction           |
-| Interpretability        | SHAP + Attention            | Cluster-level explainability     |
-| Accuracy                | ~69%                        | ~67%                             |
-| Scalability             | Modular and simple          | Requires edge logic              |
+| Metric / Aspect         | Approach 1: Ensemble           | Approach 2: Hypergraph GNN        |
+|-------------------------|--------------------------------|------------------------------------|
+| Modal Separation        | Handled independently          | Fused before learning              |
+| Feature Fusion          | Late Fusion (output level)     | Early Fusion (embedding level)    |
+| Metadata Usage          | As separate tabular classifier | For hyperedge formation           |
+| Interpretability        | SHAP + Attention               | Cluster-level insights             |
+| Best Metric             | Accuracy (~69%)                | Recall on viral memes              |
+| Complexity              | Modular but separate pipelines | Unified but graph-heavy            |
+| Scalability             | Easier to scale                | Complex edge creation logic        |
 
 ---
 
@@ -116,6 +117,15 @@ Constructs a hypergraph where each node represents a meme and hyperedges represe
 
 ---
 
+## Screenshots
+
+<div align="center">
+  <img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/approach1.png" width="400" alt="Approach 1 Overview"/>
+  <img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/approach2.png" width="400" alt="Approach 2 Overview"/>
+  <img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/graph.png" width="400" alt="Graph Visualization"/>
+</div>
+
+---
 ## Challenges
 
 - Quantifying virality consistently
