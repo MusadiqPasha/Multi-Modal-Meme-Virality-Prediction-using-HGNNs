@@ -119,11 +119,14 @@ Constructs a hypergraph where each node represents a meme and hyperedges represe
 
 ## Screenshots
 
-<div align="center">
-  <img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/approach1.png" width="400" alt="Approach 1 Overview"/>
-  <img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/approach2.png" width="400" alt="Approach 2 Overview"/>
-  <img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/graph.png" width="400" alt="Graph Visualization"/>
-</div>
+#### Approach 1: Multimodal Ensemble Architecture
+<img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/approach1.png" width="400" alt="Approach 1 Overview"/>
+
+#### Approach 2: Hypergraph Neural Network Architecture
+<img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/approach2.png" width="400" alt="Approach 2 Overview"/>
+
+#### Meme Hypergraph Visualization
+<img src="https://github.com/MusadiqPasha/Multi-Modal-Meme-Virality-Prediction-using-HGNNs/blob/main/Output/graph.png" width="400" alt="Graph Visualization"/>
 
 ---
 ## Challenges
