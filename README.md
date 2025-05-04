@@ -2,6 +2,18 @@
 
 This repository showcases a mini-project developed for **DLG UE22AM342BA2: Deep Learning on Graphs**. It presents a multimodal meme virality predictor that integrates image, text, and metadata through ensemble learning and Hypergraph Neural Networks to classify memes as viral or non-viral.
 
+---
+
+## Project Structure
+```
+├── AlternativeApproach_DLG_078_079_089.ipynb # HGNN-based approach notebook
+├── MainApproach_DLG_078_079_089.ipynb # Multimodal ensemble approach notebook
+├── OCR Notebook.ipynb # Text extraction and preprocessing via OCR
+├── GDL_078_079_089_PPT.pptx # Presentation slides for the project
+├── Output # Folder containing files generated
+└── README.md # Project documentation
+```
+
 ## Dataset
 
 We use a Reddit-based meme dataset with over 5,600 memes. It includes:
@@ -101,16 +113,6 @@ Constructs a hypergraph where each node represents a meme and hyperedges represe
 | Hypergraph      | 0.67     | High recall for viral memes   |
 | Ensemble        | 0.69     | Best overall performance      |
 
----
-
-## Project Structure
-
-├── AlternativeApproach_DLG_078_079_089.ipynb # HGNN-based approach notebook
-├── MainApproach_DLG_078_079_089.ipynb # Multimodal ensemble approach notebook
-├── OCR Notebook.ipynb # Text extraction and preprocessing via OCR
-├── GDL_078_079_089_PPT.pptx # Presentation slides for the project
-├── Output # Folder containing files generated
-└── README.md # Project documentation
 
 ---
 
